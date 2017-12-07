@@ -9,15 +9,19 @@ The boilerplate is opinionated. In fact, it's not really a boilerplate. I've mad
 
 **IMPORTANT CODE LOCATIONS**
 
-##### Blockchain Technology
+```
+// Blockchain Integrations
+
 /src/core/assimilation/ <----- Blockchain Integrations
 /src/core/assimilation/fetching/uport <----- uPort Components
 /src/core/assimilation/display/uport <----- uPort Containers
 /src/core/assimilation/symbiosis/uport <----- uPort Blockchain Requests
 
-##### Application Demo Page Components
+// Application Demo Page Components
+
 /src/application/interface/smithing/pages/Front
 /src/application/interface/smithing/regions/RegionBranding
+```
 
 
 ### Who
