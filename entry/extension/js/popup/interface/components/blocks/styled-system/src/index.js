@@ -1,0 +1,21 @@
+const space = require('./space')
+const width = require('./width')
+const fontSize = require('./font-size')
+const color = require('./color')
+const responsiveStyle = require('./responsive-style')
+const removeProps = require('./remove-props')
+const util = require('./util')
+const textShadow = require('./textShadow')
+const constants = require('./constants')
+
+module.exports = {
+  space,
+  width,
+  fontSize,
+  color,
+  responsiveStyle,
+  removeProps,
+  textShadow,
+  util,
+  constants
+}

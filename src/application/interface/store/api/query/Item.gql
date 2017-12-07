@@ -1,0 +1,28 @@
+query
+  (
+    $boundaries: ReadBoundaries,
+    $entity: Entity
+    $order: ReadOrder
+  ){
+  item
+  (
+    entity: $entity
+    boundaries: $boundaries,
+    order: $order
+  ){
+      identity {
+        contact {
+          contactEmail
+          contactPhone
+          contactURL
+        }
+        name {
+          nameOrganization
+          nameOrganizationLegal
+          nameFirst
+          nameLast
+          nameDisplay
+        }
+      }
+    }
+}
