@@ -1,11 +1,11 @@
 module.exports = {
     FIREBASE_CONFIG: {
-        apiKey: "AIzaSyBIaJ9xEKcd7IwiVJo3kLb2Bj_SI30BLUE",
-        authDomain: "multiculturalmarin.firebaseapp.com",
-        databaseURL: "https://multiculturalmarin.firebaseio.com",
-        projectId: "multiculturalmarin",
-        storageBucket: "multiculturalmarin.appspot.com",
-        messagingSenderId: "658194428527"
+        apiKey: "AIzaSyCvnmvHV8ZuyTVJqEJpkeXUXhPn4TVEx5k",
+        authDomain: "eidenaiethereum.firebaseapp.com",
+        databaseURL: "https://eidenaiethereum.firebaseio.com",
+        projectId: "eidenaiethereum",
+        storageBucket: "eidenaiethereum.appspot.com",
+        messagingSenderId: "1013991658129"
     },
 };
     
