@@ -3,7 +3,23 @@
 
 The boilerplate is opinionated. In fact, it's not really a boilerplate. I've made a lot of application architecture decisions. It's more of application launchkit, which also happens to have Ethers, uPort and Infura integrated into the React/Redux/Saga workflow.
 
-![Resources](documentation/assets/frontDemo.gif)
+![Demo Gif](documentation/assets/frontDemo.gif)
+
+**NOTICE:** The repo is a basic prototype. That being said this repo will probably get a decent amount of love and attention, because I'm amped up for Blockchain Logins.
+
+**IMPORTANT CODE LOCATIONS**
+
+##### Blockchain Technology
+/src/core/assimilation/ <----- Blockchain Integrations
+/src/core/assimilation/fetching/uport <----- uPort Components
+/src/core/assimilation/display/uport <----- uPort Containers
+/src/core/assimilation/symbiosis/uport <----- uPort Blockchain Requests
+
+##### Application Demo Page Components
+/src/application/interface/smithing/pages/Front
+/src/application/interface/smithing/regions/RegionBranding
+
+
 ### Who
 Blockchain Developers
 
@@ -13,6 +29,17 @@ Prototyping Applications with uPort (Etheruem) Login
 ### Why
 The future deserves *dope* dApps.
 
+```
+-------- Step 1 --------
+git clone git@github.com:KamesCG/uport-boilerplate.git ; cd uport-boilerplate
+-------- Step 2 --------
+yarn
+-------- Step 3 --------
+yarn start
+yarn build
+-------- Step 1000 --------
+yarn install --dev joyous-dancing
+```
 
 # Infrastructure
 

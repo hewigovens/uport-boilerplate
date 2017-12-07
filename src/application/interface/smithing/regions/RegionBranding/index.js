@@ -1,13 +1,10 @@
 /* ------------------------- External Dependencies -------------------------- */
 import React from 'react'
 /* ------------------------- Internal Dependencies -------------------------- */
-import assets from 'assets'
 import Flex from 'atoms/Flex'
-import Box from 'atoms/Box'
 import Heading from 'atoms/Heading'
 import Button from 'atoms/Button'
 import Link from 'atoms/Link'
-import Image from 'atoms/Image'
 import DrawerOpen from 'containers/drawer/DrawerOpen'
 import IdentityCredentialsRequest from 'assimilation/fetching/identity/IdentityCredentialsRequest'
 /* ------------------------------- Component -------------------------------- */
