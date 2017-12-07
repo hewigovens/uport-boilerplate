@@ -3,11 +3,12 @@
 
 The boilerplate is opinionated. In fact, it's not really a boilerplate. I've made a lot of application architecture decisions. It's more of application launchkit, which also happens to have Ethers, uPort and Infura integrated into the React/Redux/Saga workflow.
 
+![Resources](documentation/assets/frontDemo.gif)
 ### Who
-Everyone.
+Blockchain Developers
 
 ### What
-With the blockchain, of course.
+Prototyping Applications with uPort (Etheruem) Login
 
 ### Why
 The future deserves *dope* dApps.

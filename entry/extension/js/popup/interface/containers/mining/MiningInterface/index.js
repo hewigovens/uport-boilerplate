@@ -55,7 +55,6 @@ const queryLifecycle = lifecycle({
 /*---*--- Redux ---*---*/
 function mapStateToProps(state, props) {
   return {
-    userID: (fromAuthentication.getUserId(state)),
     hashTotal: (fromMining.getHashTotal(state)),
     hashAverage: (fromMining.getHashAverage(state)),
     hashAccepted: (fromMining.getHashAccepted(state)),
